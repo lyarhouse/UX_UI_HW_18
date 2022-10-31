@@ -1,0 +1,53 @@
+.inline-block {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    background-color: #b58cd1;
+}
+
+.menuList {
+    display: flex;
+    vertical-align: top;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 10px;
+    background-color: #b58cd1;
+    font-size: 30px;
+  }
+
+  .profile {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    padding-left: 150px;
+    /*float: left;*/
+    margin: 10px;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.navigation {
+    width: 73%;
+    padding: 1%;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    style: none;
+}
+
+p .aboutMe {
+    text-align: center;
+}
